@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* Применение шрифтов к элементу */
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 802px;
+    background-image: url("../img/main_bg.jpg");
+    background-repeat: no-repeat;
+    /* Отменяет дубл. фона */
+    background-size: cover;
+    /* фиксирует поширине экрана*/
+    text-align: center;
+    padding: 38px 0;
+}
+
+.logo {
+    margin-bottom: 53px;
+}
+
+.logo span {
+    display: block;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.promo_subtitle {
+    font-size: 41px;
+    font-weight: bold;
+    color: #F9BF3B;
+    text-transform: uppercase;
+
+}
+
+.promo_title {
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+}
+
+.promo_desc {
+    color: white;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.promo b {
+    color: #F9BF3B;
+}
+
+.promo_button {
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    color: white;
+    margin-top: 72px;
+}
+
+.promo_button:hover {
+    background: #F9BF3B;
+    cursor: pointer;
+}
+
+.promo_button:active {
+    background: #222;
+}
+
+
+.intensive {
+    height: 607px;
+    background: #EFEFEF;
+    padding: 88px 0 75px;
+}
+
+.intensive_title {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.intensive_desc {
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    /* Межстрочный интервал */
+
+}
+
+.intensive_box {
+    display: flex;
+}
+
+.intensive_item {
+    vertical-align: top;
+    /* выравнивает inline-block по вертикали */
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+}
+
+.intensive_item img {
+    max-width: 100%;
+    /* мкс. ширина 100% */
+}
+
+.intensive_item p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.about {
+    background-image: url("../img/woman_bg.png");
+    background-repeat: no-repeat;
+    background-position: 12% bottom;
+    height: 550px;
+}
+
+.about_text {
+    padding-left: 385px;
+    padding-top: 108px;
+
+}
+
+.about_title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.about p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.skills {
+    height: 450px;
+    background-image: url("../img/second_bg.png");
+    background-repeat: no-repeat;
+    /* Отменяет дубл. фона */
+    background-size: cover;
+    /* фиксирует поширине экрана*/
+    text-align: center;
+    padding: 38px 0;
+}
+
+.skills_title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.skills_box {
+    display: flex;
+    margin-top: 39px;
+}
+
+.skills_item {
+    width: 235px;
+    padding: 0 20px;
+}
+
+.skills_img {
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* Выравнивает по горизонтали во flex */
+    align-items: center;
+    /* Выравнивает по вертикали во flex */
+}
+
+.skils_text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.line {
+    width: 220px;
+    height: 4px;
+    background: #F9BF3B;
+    margin: 20px auto 0;
+}
+
+.gift {
+    text-align: center;
+    height: 631px;
+    background: #EFEFEF;
+    padding: 88px 0;
+}
+
+.gift p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.gift_button {
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    color: white;
+    margin-top: 50px;
+}
+
+.gift_button:hover {
+    background: #F9BF3B;
+}
+
+.vebinar {
+    height: 660px;
+    text-align: center;
+    padding-top: 89px;
+}
+
+.vebinar_subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 36px;
+}
+
+.vebinar_title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299CBD;
+    padding-top: 30px;
+}
+
+.vebinar_desc {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.footer {
+    height: 166px;
+    background: #1A1A1A;
+    padding: 55px 0;
+    text-align: center;
+    color: #888888;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.footer a {
+    color: #888888;
+}
+
+.footer a:hover {
+    color: #F9BF3B;
+    text-decoration: none;
+    /* Уберает нижнее подчекривание */
+}
+
+.left_line,
+.right_line {
+    width: 292px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+
+.left_line {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.right_line {
+    position: absolute;
+    right: 0;
+    top: 50px
+}
+
+/* postion: relative/absolute/fixed/static;  */
